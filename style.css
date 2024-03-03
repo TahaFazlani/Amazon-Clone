@@ -231,3 +231,102 @@ span {
     font-size: 13px;
     font-weight: 500;
 }
+
+
+.footer1{
+    height: 20px;
+    padding: 15px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 72, 64);
+    margin-top: 10px;
+}
+
+
+.footer2{
+    height: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(38, 49, 44);
+    border-bottom: 0.1px solid rgb(105, 104, 104);
+}
+
+.footer2 h3{
+    padding: 45px 0px 10px;
+    font-weight: 540;
+
+}
+
+.footer2 li{
+    list-style-type: none;
+    line-height: 1.8rem;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.footer3{
+    height: 120px;
+    background-color: rgb(38, 49, 44);
+    border-top: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer img{
+    height: 80px;
+    width: 80px;
+}
+
+.currency{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    gap: 15px;
+}
+
+.currency p {
+    color: white;
+    border: 1px solid white;
+    border-radius: 8%;
+    padding: 10px 20px 10px 20px;
+
+}
+.footer4{
+height: 600px;
+    background-color: #1d2423;
+    position: relative;
+}
+
+.AboutAmazon{
+    height: 450px;
+    background-color: #1d2423;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 350px;
+}
+
+.footbox{
+    height: 80px;
+    width: 90px;
+    padding: 0px 9px;
+    line-height: 0.9rem;
+}
+
+.footbox a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.footbox span{
+    color: gray;
+}
