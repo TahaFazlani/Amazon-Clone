@@ -1,11 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
 
-.nav-bar{
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.nav-bar {
     height: 60px;
     background-color: black;
     color: white;
@@ -13,56 +24,65 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.nav-logo{
-    
+
+.nav-logo {
+
     height: 50px;
     width: 100px;
-    
+
 }
-.border{
+
+.border {
     border: 1.5px solid transparent;
 }
-.border:hover{
+
+.border:hover {
     border: 1.5px solid white;
 }
-.logo{
+
+.logo {
     background-image: url("Amazon-Logo-Black.jpg");
-    background-size:cover;
+    background-size: cover;
     height: 50px;
     width: 100%;
 }
 
-.add-icon{
+.add-icon {
     display: flex;
 }
-.nav-address{
+
+.nav-address {
     padding: 9px;
     width: 100px;
 }
-.nav-address p{
+
+.nav-address p {
     font-size: 13px;
     color: #CCCCCC;
     padding-left: 15px;
 
 }
-.nav-address h5{
+
+.nav-address h5 {
     padding-left: 3px;
     font-size: 16px;
     color: white;
 }
 
-.search-Bar{
+.search-Bar {
     display: flex;
-   justify-content: space-evenly;
+    justify-content: space-evenly;
     height: 40px;
     width: 900px;
     border: 2px solid transparent;
-   
+
 }
-.search-Bar:hover{
+
+.search-Bar:hover {
     border: 2px solid orange;
 }
-.selection{
+
+.selection {
     width: 50px;
     background-color: #E6E6E6;
     font-size: 14px;
@@ -70,15 +90,17 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
-    
+
 }
-.searchInput{
+
+.searchInput {
     width: 100%;
     font-size: 1rem;
     border: none;
-    
+
 }
-.search-Icon{
+
+.search-Icon {
     background-color: rgb(218, 155, 37);
     width: 45px;
     border-top-right-radius: 5px;
@@ -88,32 +110,124 @@
     justify-content: center;
 }
 
-.nav-signIn{
+.nav-signIn {
     padding: 9px;
 }
-span{
+
+span {
     font-size: 12px;
 }
 
-.sec-line{
+.sec-line {
     font-size: 14px;
     font-weight: 700;
 }
 
-.cart-logo{
+.cart-logo {
     width: 80px;
     font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 9px;
-    
+
 }
 
-.cart-logo i{
+.cart-logo i {
     font-size: 25px;
 }
 
-.cart-logo .cart{
+.cart-logo .cart {
     padding-top: 14px;
+}
+
+.nav-bar2 {
+    height: 40px;
+    width: 100%;
+    background-color: #3b5b54;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 0 20px 0 20px;
+}
+
+.nav-bar2 .menu {
+    padding: 5px;
+}
+
+.nav-bar2 span {
+    font-weight: 700;
+
+}
+
+.nav-bar2 a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.heroSection {
+    height: 40%;
+    width: 100%;
+    background-color: #dadada;
+    background-image: url("./shopBook_Bg.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.heroSection p {
+    height: 20px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.heroSection a {
+    text-decoration: none;
+    color: #34d6b0;
+}
+
+.products {
+    background-color: #defbef;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box {
+    background: white;
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+}
+
+.box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.box-Img {
+    background-size: cover;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.box-content a {
+    margin-top: 20px;
+    color: #34bed6;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
 }
